@@ -16,7 +16,7 @@ apellido = document.getElementById("apellido");
 email = document.getElementById("email");
 usuario= document.getElementById("usuario");
 password= document.getElementById("password");
-botton = document.getElementById("btn-guardar");
+boton = document.getElementById("btn-guardar");
 
 //mostrar el objeto seleccionado
 
