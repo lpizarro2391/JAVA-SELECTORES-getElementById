@@ -21,3 +21,13 @@ botton = document.getElementById("btn-guardar");
 //mostrar el objeto seleccionado
 
 console.log(password);
+
+//funcion que se ejecuta en el evento
+
+function mostrarAlerta(mensaje){
+  alert('el usuario realizó click en el botón de envío');
+}
+
+// Asignación del evento al botón
+
+boton.addEventListener('click',mostrarAlerta);
